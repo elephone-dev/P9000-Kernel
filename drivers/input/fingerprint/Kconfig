@@ -1,0 +1,12 @@
+#
+#Fingerprint
+#
+
+config MTK_FINGERPRINT
+	tristate "Mediatek Fingerprint"
+	default n
+	---help---
+
+source "drivers/input/fingerprint/gfx1xm/Kconfig"
+source "drivers/input/fingerprint/et320/Kconfig"
+

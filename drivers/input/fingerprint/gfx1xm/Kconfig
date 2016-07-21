@@ -1,0 +1,4 @@
+
+config MT_FINGERPRINT_GFX1XM
+	tristate "Mediatek Fingerprint"
+	default n

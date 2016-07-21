@@ -1,0 +1,18 @@
+
+config CUSTOM_KERNEL_IRAF
+	bool "CUSTOM_KERNEL_IRAF"
+	help
+	  IRAF sensor driver to detect ambient light and the object is close
+	  or far awary from device. After configure this configuration,
+          the specific ambient light and proximity sensor driver configuration
+          should be configured as well.
+
+config MTK_AUTO_DETECT_IRAF
+	bool "MTK_AUTO_DETECT_IRAF"
+	help
+	  This feature Option is used for projects which using more than one
+	  IRAF sensors, more than one IRAF drivers can be builded in to
+	  project and be auto detected by setting this option to yes,
+          usually only one IRAF driver can be probed.
+
+source "drivers/misc/mediatek/iraf/VL6180/Kconfig"

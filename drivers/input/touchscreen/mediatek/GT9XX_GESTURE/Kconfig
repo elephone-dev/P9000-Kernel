@@ -1,0 +1,39 @@
+#
+# Touchscreen driver configuration
+#
+if TOUCHSCREEN_MTK_GT9XX_GESTURE
+
+config TPD_ROTATE_90
+	bool "GT9XX_GESTURE for Mediatek package"
+	default n
+	help
+	Say Y here if you have GT9XX_GESTURE touch panel TPD_ROTATE_90.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config TPD_ROTATE_180
+	bool "GT9XX_GESTURE for Mediatek package"
+	default n
+	help
+	Say Y here if you have GT9XX_GESTURE touch panel TPD_ROTATE_180.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+config TPD_ROTATE_270
+	bool "GT9XX_GESTURE for Mediatek package"
+	default n
+	help
+	Say Y here if you have GT9XX_GESTURE touch panel TPD_ROTATE_270.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+endif

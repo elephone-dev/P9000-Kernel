@@ -1,0 +1,4 @@
+
+config MTK_SN3191
+	bool "sn3191 for MediaTek package"
+	default n

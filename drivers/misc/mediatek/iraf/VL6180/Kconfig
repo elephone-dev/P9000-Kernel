@@ -1,0 +1,4 @@
+
+config MTK_VL6180
+	bool "vl6180 for MediaTek package"
+	default n

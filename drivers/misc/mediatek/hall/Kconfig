@@ -1,0 +1,4 @@
+
+config CUSTOM_KERNEL_HALL
+	bool "hall for MediaTek package"
+	default n

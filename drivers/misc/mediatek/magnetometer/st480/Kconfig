@@ -1,0 +1,9 @@
+
+config MTK_ST480
+	bool "ST480 for MediaTek package"
+	default n
+	help
+	  It support different magnetometer sensor.
+          If this option is set,
+	  it will support
+          ST480 magnetometer.

@@ -1,0 +1,4 @@
+
+config MTK_AP3XX6
+	bool "ap3xx6 for MediaTek package"
+	default n
